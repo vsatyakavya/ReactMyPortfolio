@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.js": "/ReactMyPortfolio/static/js/main.75060bf2.chunk.js",
+    "main.js.map": "/ReactMyPortfolio/static/js/main.75060bf2.chunk.js.map",
+    "runtime-main.js": "/ReactMyPortfolio/static/js/runtime-main.5821b72e.js",
+    "runtime-main.js.map": "/ReactMyPortfolio/static/js/runtime-main.5821b72e.js.map",
+    "static/css/2.1a02f21c.chunk.css": "/ReactMyPortfolio/static/css/2.1a02f21c.chunk.css",
+    "static/js/2.177b647f.chunk.js": "/ReactMyPortfolio/static/js/2.177b647f.chunk.js",
+    "static/js/2.177b647f.chunk.js.map": "/ReactMyPortfolio/static/js/2.177b647f.chunk.js.map",
+    "index.html": "/ReactMyPortfolio/index.html",
+    "static/css/2.1a02f21c.chunk.css.map": "/ReactMyPortfolio/static/css/2.1a02f21c.chunk.css.map",
+    "static/js/2.177b647f.chunk.js.LICENSE.txt": "/ReactMyPortfolio/static/js/2.177b647f.chunk.js.LICENSE.txt",
+    "static/media/MyTeam.8b035d7f.png": "/ReactMyPortfolio/static/media/MyTeam.8b035d7f.png",
+    "static/media/dayplanner.ae6963ab.png": "/ReactMyPortfolio/static/media/dayplanner.ae6963ab.png",
+    "static/media/gmoh.78774b4e.png": "/ReactMyPortfolio/static/media/gmoh.78774b4e.png",
+    "static/media/kavya.ab1994be.jpg": "/ReactMyPortfolio/static/media/kavya.ab1994be.jpg",
+    "static/media/login.f2b50ae3.png": "/ReactMyPortfolio/static/media/login.f2b50ae3.png",
+    "static/media/mapandplaces.fb59aa77.png": "/ReactMyPortfolio/static/media/mapandplaces.fb59aa77.png",
+    "static/media/passwordGenerator.aa25cbf8.png": "/ReactMyPortfolio/static/media/passwordGenerator.aa25cbf8.png",
+    "static/media/petform.1d2046f2.png": "/ReactMyPortfolio/static/media/petform.1d2046f2.png",
+    "static/media/quiz.a758fa9b.png": "/ReactMyPortfolio/static/media/quiz.a758fa9b.png",
+    "static/media/resume.2c0c9460.pdf": "/ReactMyPortfolio/static/media/resume.2c0c9460.pdf",
+    "static/media/videos.bfb2e33c.png": "/ReactMyPortfolio/static/media/videos.bfb2e33c.png",
+    "static/media/weather.ba0bf922.png": "/ReactMyPortfolio/static/media/weather.ba0bf922.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5821b72e.js",
+    "static/css/2.1a02f21c.chunk.css",
+    "static/js/2.177b647f.chunk.js",
+    "static/js/main.75060bf2.chunk.js"
+  ]
+}
