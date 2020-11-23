@@ -11,7 +11,7 @@ const projects =[
 {
     id : 2,
     title :"Employee Management system",
-    deployed :"https://drive.google.com/file/d/16eG2Fy_pLnbGj2lyrGEt2i30ql3v7jYo/view",
+    deployed :"https://drive.google.com/file/d/1OQMRRwzNPcQeWAARzk0grEq9WAVYsfXl/view",
     github :"https://github.com/vsatyakavya/Employee_Tracker"
  },
  {
