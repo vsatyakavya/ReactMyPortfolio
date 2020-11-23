@@ -14,42 +14,27 @@ const projects =[
     deployed :"https://drive.google.com/file/d/1OQMRRwzNPcQeWAARzk0grEq9WAVYsfXl/view",
     github :"https://github.com/vsatyakavya/Employee_Tracker"
  },
+
+
  {
     id : 3,
-    title :"Employee Management system",
-    deployed :"https://drive.google.com/file/d/16eG2Fy_pLnbGj2lyrGEt2i30ql3v7jYo/view",
-    github :"https://github.com/vsatyakavya/Employee_Tracker"
+    title :"GetMeOutOfHere",
+    deployed :"https://drop-g.github.io/GetMeOutOfHereApp/",
+    github :"https://github.com/vsatyakavya/GetMeOutOfHereApp"
  },
  {
     id : 4,
-    title :"Employee Management system",
-    deployed :"https://drive.google.com/file/d/16eG2Fy_pLnbGj2lyrGEt2i30ql3v7jYo/view",
-    github :"https://github.com/vsatyakavya/Employee_Tracker"
+    title :"Quiz Game",
+    deployed :"https://vsatyakavya.github.io/QuizGame.github.io/.",
+    github :"https://github.com/vsatyakavya/QuizGame.github.io"
  },
  {
     id : 5,
-    title :"Employee Management system",
-    deployed :"https://drive.google.com/file/d/16eG2Fy_pLnbGj2lyrGEt2i30ql3v7jYo/view",
-    github :"https://github.com/vsatyakavya/Employee_Tracker"
- },
- {
-    id : 6,
-    title :"Employee Management system",
-    deployed :"https://drive.google.com/file/d/16eG2Fy_pLnbGj2lyrGEt2i30ql3v7jYo/view",
-    github :"https://github.com/vsatyakavya/Employee_Tracker"
- },
- {
-    id : 7,
-    title :"Employee Management system",
-    deployed :"https://drive.google.com/file/d/16eG2Fy_pLnbGj2lyrGEt2i30ql3v7jYo/view",
-    github :"https://github.com/vsatyakavya/Employee_Tracker"
- },
- {
-    id : 8,
-    title :"Employee Management system",
-    deployed :"https://drive.google.com/file/d/16eG2Fy_pLnbGj2lyrGEt2i30ql3v7jYo/view",
-    github :"https://github.com/vsatyakavya/Employee_Tracker"
- },
+    title :" Password Generator",
+    deployed :"https://vsatyakavya.github.io/PasswordGenerator.github.io/",
+    github :"https://github.com/vsatyakavya/PasswordGenerator.github.io"
+ }
+
 ];
 
 

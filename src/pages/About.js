@@ -1,4 +1,6 @@
 import React from "react"
+import resume from "../Assets/resume.pdf";
+import kavya from "../Assets/kavya.jpg"
 
 function About() {
     return (
@@ -14,7 +16,7 @@ function About() {
 
                     <div class="row">
                         <div class="col-md-12">
-                            <img src="kavya.jpg" class=" img-fluid rounded mx-auto d-block rounded-circle" alt="satyakavya"
+                            <img src={kavya} class=" img-fluid rounded mx-auto d-block rounded-circle" alt="satyakavya"
  />
                                 <h5>Satya kavya</h5>
                                 <p>I have done my under graduation in computer Science in India. I have done my college project in
@@ -23,7 +25,7 @@ function About() {
                                 bootcamp.
                                 My dream is to work in software industry. My goal is to become a great web developer.</p>
                                 <p>I like to play ping pong, carroms and board games like sequence. </p>
-                                <li><strong>Resume:   </strong> <a href="Assets/resume.pdf">satyakavyavarri</a></li>
+                                <li><strong>Resume:   </strong> <a href={resume}>satyakavyavarri</a></li>
                                 <li><strong>Email Address:</strong> <a href="mailto:satyakavya24@gmail.com">satyakavya24@gmail.com</a></li>
                                 <li><strong>GithubLink:</strong> <a href="https://github.com/vsatyakavya">Github</a></li>
                                 <li><strong>Linkedin Link:</strong> <a href="https://www.linkedin.com/in/satyakavyavarri/">linkedin</a></li>
