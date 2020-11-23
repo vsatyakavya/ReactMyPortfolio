@@ -18,6 +18,3 @@ function Footer(){
 export default Footer
 
 
-{/* <nav class="navbar fixed-bottom" style="background-color: gray;justify-content: center;">
-<small>@copyright2020</small>
-</nav> */}

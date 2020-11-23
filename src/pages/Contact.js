@@ -1,8 +1,11 @@
 import React from "react"
 
-function Contact( ){
-    return  <p>This is Contact page</p>
+function Contact(props) {
+    return <p> This is contact</p>
+     
+
     
+
 }
 
 export default Contact;
