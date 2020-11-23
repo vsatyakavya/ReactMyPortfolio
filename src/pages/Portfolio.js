@@ -2,6 +2,19 @@ import React from "react"
 import login from '../Assets/login.png'; 
 import petform from '../Assets/petform.png'; 
 
+import videos from '../Assets/videos.png'; 
+import gmoh from '../Assets/gmoh.png'; 
+
+import mapandplaces from '../Assets/mapandplaces.png'; 
+import MyTeam from '../Assets/MyTeam.png'; 
+
+import quiz from '../Assets/quiz.png'; 
+import weather from '../Assets/weather.png'; 
+
+import passwordGenerator from '../Assets/passwordGenerator.png'; 
+import dayplanner from '../Assets/dayplanner.png'; 
+
+
 
 function Portfolio() {
     return (
@@ -10,16 +23,16 @@ function Portfolio() {
             <div class="col-md-12">
                 <h1>Portfolio</h1>
                 <img src={login} class="img-fluid" alt="login" />
-                <img src="Assets/petform.png" class="img-fluid" alt ="petform" />
-                <img src="Assets/videos.png" class="img-fluid" alt="videos page" /><hr />
-                <img src="Assets/gmoh.png" class="img-fluid" alt="welcome page" />
-                <img src="Assets/mapandplaces.png" class="img-fluid" alt="mapandplaces" /><hr />
-                <img src="Assets/MyTeam.png" class="img-fluid" alt="team profiles" /><hr />
+                <img src={petform} class="img-fluid" alt ="petform" />
+                <img src={videos} class="img-fluid" alt="videos page" /><hr />
+                <img src={gmoh} class="img-fluid" alt="welcome page" />
+                <img src={mapandplaces} class="img-fluid" alt="mapandplaces" /><hr />
+                <img src={MyTeam} class="img-fluid" alt="team profiles" /><hr />
                 <h1 >QUIZ GAME</h1>
-                <img src="Assets/quiz.png" class="img-fluid" alt="quiz" /><hr />
-                <img src="Assets/weather.png" class="img-fluid" alt="weather dashboard" /><hr />
-                <img src="Assets/passwordGenerator.png" class="img-fluid" alt="password Generator" /><hr />
-                <img src="Assets/dayplanner.png" class="img-fluid" alt="mypicture" /><hr />
+                <img src={quiz} class="img-fluid" alt="quiz" /><hr />
+                <img src={weather} class="img-fluid" alt="weather dashboard" /><hr />
+                <img src={passwordGenerator} class="img-fluid" alt="password Generator" /><hr />
+                <img src={dayplanner} class="img-fluid" alt="mypicture" /><hr />
                 
             </div>
         </div>
