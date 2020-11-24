@@ -20,7 +20,7 @@ function App() {
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/project" component={ProjectContainer} />
 
-        <Footer />
+        
         
       </div>
     </Router>
