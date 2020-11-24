@@ -24,7 +24,7 @@ function Portfolio() {
     return (
         <Container>
         <Row>
-            <div class="col-md-12">
+            <Col size="md-12">
                 <h1>Portfolio</h1>
                 <img src={login} class="img-fluid" alt="login" />
                 <img src={petform} class="img-fluid" alt ="petform" />
@@ -38,7 +38,7 @@ function Portfolio() {
                 <img src={passwordGenerator} class="img-fluid" alt="password Generator" /><hr />
                 <img src={dayplanner} class="img-fluid" alt="mypicture" /><hr />
                 
-            </div>
+            </Col>
         </Row>
     </Container>
     )

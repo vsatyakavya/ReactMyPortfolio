@@ -7,12 +7,12 @@ function Contact(props) {
     return (
         <Container>
             <Row>
-                <div class="col-md-9">
-                    <div class="col-md-12">
+                <Col size="md-9">
+                    <Col size="md-12">
                         <h1>Contact</h1>
                         <hr />
-                    </div>
-                    <div class="col-md-6">
+                    </Col>
+                    <Col size="md-6">
                         <form>
                             <div class="form-group">
                                 <label for="formGroupExampleInput">Name</label>
@@ -33,8 +33,8 @@ function Contact(props) {
                             </div>
                             <button type="submit" class="btn btn-info">Submit</button>
                         </form>
-                    </div>
-                </div>
+                    </Col>
+                </Col>
             </Row>
         </Container>
     )

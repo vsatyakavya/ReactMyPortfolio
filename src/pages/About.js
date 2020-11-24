@@ -3,22 +3,22 @@ import resume from "../Assets/resume.pdf";
 import kavya from "../Assets/kavya.jpg"
 import Row from "../components/Row"
 import Container from "../components/Container"
+import Col from "../components/Col"
 
 function About() {
     return (
         <Container>
-
             <Row>
-                <div class="col-md-10">
+                <Col size="md-10">
                     <Row>
                         <div class="col-md-12">
                             <h1 id="aboutme">About Me</h1>
                         </div>
-                        </Row>
+                    </Row>
 
 
-                       <Row>
-                        <div class="col-md-12">
+                    <Row>
+                        <Col size="md-12">
                             <img src={kavya} className=" img-fluid rounded mx-auto d-block rounded-circle" alt="satyakavya"
                             />
                             <h5>Satya kavya</h5>
@@ -34,9 +34,9 @@ function About() {
                             <li><strong>Linkedin Link:</strong> <a href="https://www.linkedin.com/in/satyakavyavarri/">linkedin</a></li>
                             <li><strong>Mobile Number:</strong> (512)-986-1095</li>
 
-                        </div>
+                        </Col>
                     </Row>
-                </div>
+                </Col>
             </Row>
         </Container>
     )
