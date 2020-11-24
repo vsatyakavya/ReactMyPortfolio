@@ -2,10 +2,12 @@ import React from "react"
 import resume from "../Assets/resume.pdf";
 import kavya from "../Assets/kavya.jpg"
 import Row from "../components/Row"
+import Container from "../components/Container"
 
 function About() {
     return (
-        <div class="container">
+        <Container>
+
             <Row>
                 <div class="col-md-10">
                     <Row>
@@ -36,7 +38,7 @@ function About() {
                     </Row>
                 </div>
             </Row>
-        </div>
+        </Container>
     )
 
 }
