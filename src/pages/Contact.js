@@ -1,8 +1,9 @@
 import React from "react"
 import Row from "../components/Row"
+import Container from "../components/Container"
 function Contact(props) {
     return (
-        <div class="container">
+        <Container>
             <Row>
                 <div class="col-md-9">
                     <div class="col-md-12">
@@ -33,7 +34,7 @@ function Contact(props) {
                     </div>
                 </div>
             </Row>
-        </div>
+        </Container>
     )
 
 

@@ -1,9 +1,11 @@
 import React from "react"
 import Row from "../components/Row"
+import Container from "../components/Container"
+
 
 function Project(props){
     return (
-        <div class="container">
+        <Container>
         <Row>
             <div class="col-md-10" >
                 <Row>
@@ -38,7 +40,7 @@ function Project(props){
                 </Row>
             </div>
         </Row>
-    </div>
+    </Container>
     )
     
 }

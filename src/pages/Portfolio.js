@@ -14,11 +14,13 @@ import weather from '../Assets/weather.png';
 import passwordGenerator from '../Assets/passwordGenerator.png'; 
 import dayplanner from '../Assets/dayplanner.png'; 
 import Row from "../components/Row"
+import Container from "../components/Container"
+
 
 
 function Portfolio() {
     return (
-        <div class="container">
+        <Container>
         <Row>
             <div class="col-md-12">
                 <h1>Portfolio</h1>
@@ -36,7 +38,7 @@ function Portfolio() {
                 
             </div>
         </Row>
-    </div>
+    </Container>
     )
 
 }
