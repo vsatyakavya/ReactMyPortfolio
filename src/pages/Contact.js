@@ -1,6 +1,8 @@
 import React from "react"
 import Row from "../components/Row"
 import Container from "../components/Container"
+import Col from "../components/Col"
+
 function Contact(props) {
     return (
         <Container>

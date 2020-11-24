@@ -15,6 +15,8 @@ import passwordGenerator from '../Assets/passwordGenerator.png';
 import dayplanner from '../Assets/dayplanner.png'; 
 import Row from "../components/Row"
 import Container from "../components/Container"
+import Col from "../components/Col"
+
 
 
 
