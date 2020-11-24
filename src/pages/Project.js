@@ -1,16 +1,17 @@
 import React from "react"
+import Row from "../components/Row"
 
 function Project(props){
     return (
         <div class="container">
-        <div class="row">
+        <Row>
             <div class="col-md-10" >
-                <div class="row">
+                <Row>
                     <div class="col-md-12">
                         <h1 id="aboutme" >Projects Details</h1>
                     </div>
-                </div>
-                <div class="row">
+                </Row>
+                <Row>
                     <div class="col-md-12">
                         <ol className="list-group">
                             {props.project.map(item =>(
@@ -34,9 +35,9 @@ function Project(props){
                         </ol>
 
                     </div>
-                </div>
+                </Row>
             </div>
-        </div>
+        </Row>
     </div>
     )
     

@@ -13,13 +13,13 @@ import weather from '../Assets/weather.png';
 
 import passwordGenerator from '../Assets/passwordGenerator.png'; 
 import dayplanner from '../Assets/dayplanner.png'; 
-
+import Row from "../components/Row"
 
 
 function Portfolio() {
     return (
         <div class="container">
-        <div class="row">
+        <Row>
             <div class="col-md-12">
                 <h1>Portfolio</h1>
                 <img src={login} class="img-fluid" alt="login" />
@@ -35,7 +35,7 @@ function Portfolio() {
                 <img src={dayplanner} class="img-fluid" alt="mypicture" /><hr />
                 
             </div>
-        </div>
+        </Row>
     </div>
     )
 
