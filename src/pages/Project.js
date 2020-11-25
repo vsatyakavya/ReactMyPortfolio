@@ -20,11 +20,8 @@ function Project(props){
                         <ol className="list" >
                             {props.project.map(item =>(
                                 <div>
-                                    <ul>
-                                 
-                                 <li className="list-group" key={item.id} style={{fontSize : 30}}>{item.title}</li>
-                            
-                             
+                                 <ul>
+                                  <li className="list-group" key={item.id} style={{fontSize : 30}}>{item.title}</li>
                                  <li className="list-group"><a href={item.deployed}>Deployed Version</a></li>
                                  <li className="list-group"><a href={item.github}>Github Repository</a></li>
  

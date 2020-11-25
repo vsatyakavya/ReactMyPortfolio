@@ -20,7 +20,6 @@ const styles ={
         height:250,
         width:400,
         borderRadius : 10,
-        // borderStyle: "outset",
         margin : 20,
         boxShadow: "10px 10px 5px grey"
         
@@ -32,7 +31,7 @@ const styles ={
 function Portfolio() {
     return (
         <Container>
-        <div className="row text-center">
+        <Row>
             <Col size="md-12" style={{padding : 50}}>
                 <h1>Portfolio</h1>
                 <img src={login} class="img-fluid" alt="login" style={styles.img} />
@@ -46,7 +45,7 @@ function Portfolio() {
                 <img src={passwordGenerator} class="img-fluid" alt="password Generator"style={styles.img} />
                 
             </Col>
-        </div>
+        </Row>
     </Container>
     )
 
