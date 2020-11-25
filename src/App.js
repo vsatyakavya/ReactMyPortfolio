@@ -8,11 +8,26 @@ import Background from "./Assets/background.jpg"
 
 import Header from "./components/Header";
 import Footer from "./components/Footer"
+const styles ={
+  bg :{
+    backgroundImage: "url(" +  Background  + ")",
 
+    /* Full height */
+    // height: "100%",
+    width: '100vw',
+    height: '220vh',
+
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    backgroundAttachment:"fixed"
+
+  }
+}
 function App() {
   return (
     <Router>
-      <div style= {{ backgroundImage: "url(" +  Background  + ")"}}>
+      <div style= {styles.bg}>
         <Header />
         
           <Route exact path="/" component={About} />
@@ -21,7 +36,7 @@ function App() {
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/project" component={ProjectContainer} />
 
-        
+        <Footer />
         
       </div>
     </Router>

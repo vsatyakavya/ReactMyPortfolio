@@ -11,22 +11,22 @@ function Project(props){
         <Row>
             <Col size="md-10">
                 <Row>
-                    <Col size="md-10">
-                        <h1 id="aboutme" >Projects Details</h1>
+                    <Col size="md-10" >
+                        <h1 style={{textAlign :"center"}} id="aboutme" >Projects Details</h1>
                     </Col>
                 </Row>
                 <Row>
                     <Col size="md-12">
-                        <ol className="list-group">
+                        <ol className="list" >
                             {props.project.map(item =>(
                                 <div>
                                     <ul>
                                  
-                                 <li className="list-group-item" key={item.id}>{item.title}</li>
+                                 <li className="list-group" key={item.id} style={{fontSize : 30}}>{item.title}</li>
                             
                              
-                                 <li className="list-group-item"><a href={item.deployed}>Deployed Version</a></li>
-                                 <li className="list-group-item"><a href={item.github}>Github Repository</a></li>
+                                 <li className="list-group"><a href={item.deployed}>Deployed Version</a></li>
+                                 <li className="list-group"><a href={item.github}>Github Repository</a></li>
  
                              </ul>
                              </div>
@@ -48,4 +48,3 @@ function Project(props){
 }
 
 export default Project;
-

@@ -2,8 +2,6 @@ import React from "react"
 import login from '../Assets/login.png'; 
 import petform from '../Assets/petform.png'; 
 
-import videos from '../Assets/videos.png'; 
-import gmoh from '../Assets/gmoh.png'; 
 
 import mapandplaces from '../Assets/mapandplaces.png'; 
 import employeeList from '../Assets/employeelist.png'; 
@@ -21,8 +19,12 @@ const styles ={
     img:{
         height:250,
         width:400,
-        padding:10,
-        borderRadius : 10
+        borderRadius : 10,
+        // borderStyle: "outset",
+        margin : 20,
+        boxShadow: "10px 10px 5px grey"
+        
+
     }
 }
 
@@ -30,13 +32,11 @@ const styles ={
 function Portfolio() {
     return (
         <Container>
-        <Row>
-            <Col size="md-12">
+        <div className="row text-center">
+            <Col size="md-12" style={{padding : 50}}>
                 <h1>Portfolio</h1>
                 <img src={login} class="img-fluid" alt="login" style={styles.img} />
                 <img src={petform} class="img-fluid" alt ="petform" style={styles.img} />
-                <img src={videos} class="img-fluid" alt="videos page" style={styles.img} />
-                <img src={gmoh} class="img-fluid" alt="welcome page"style={styles.img} />
                 <img src={mapandplaces} class="img-fluid" alt="mapandplaces" style={styles.img} />
                 <img src={employeeList} class="img-fluid" alt="login" style={styles.img} />
                 <img src={graph} class="img-fluid" alt="login" style={styles.img} />
@@ -46,7 +46,7 @@ function Portfolio() {
                 <img src={passwordGenerator} class="img-fluid" alt="password Generator"style={styles.img} />
                 
             </Col>
-        </Row>
+        </div>
     </Container>
     )
 
