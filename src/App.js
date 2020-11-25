@@ -12,8 +12,7 @@ const styles ={
   bg :{
     backgroundImage: "url(" +  Background  + ")",
 
-    /* Full height */
-    // height: "100%",
+   
     width: '100vw',
     height: '220vh',
 
@@ -31,6 +30,8 @@ function App() {
         <Header />
         
           <Route exact path="/" component={About} />
+          <Route exact path="/ReactMyPortfolio" component={About} />
+
           <Route exact path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/portfolio" component={Portfolio} />
