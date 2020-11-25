@@ -1,6 +1,6 @@
 import React from "react"
 import resume from "../Assets/resume.pdf";
-import kavya from "../Assets/kavya.jpg"
+import kavya from "../Assets/satyakavya.jpg"
 import Row from "../components/Row"
 import Container from "../components/Container"
 import Col from "../components/Col"
@@ -18,9 +18,11 @@ function About() {
 
 
                     <Row>
-                        <Col size="md-12">
-                            <img src={kavya} className=" img-fluid rounded mx-auto d-block rounded-circle" alt="satyakavya"
+                        <Col size="md-4">
+                            <img src={kavya} className=" img-fluid "  alt="satyakavya"
                             />
+                        </Col>
+                        <Col size="md-6">
                             <h5>Satya kavya</h5>
                             <p>I have done my under graduation in computer Science in India. I have done my college project in
                             vb.net about my college.

@@ -11,7 +11,7 @@ import Footer from "./components/Footer"
 function App() {
   return (
     <Router>
-      <div>
+      <div style= {{background : "blue"}}>
         <Header />
         
           <Route exact path="/" component={About} />
