@@ -1,57 +1,47 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-// Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <Link className="navbar-brand" to="/">
-        Satya kavya
-      </Link>
-      <div>
-        <ul className="navbar-nav">
-        <li className="nav-item">
-            <Link
-              to="/contact"
-              className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
-            >
-              Contact
-            </Link>
-          </li>
-       
-          <li className="nav-item">
-            <Link
-              to="/"
-              className={
-                window.location.pathname === "/" || window.location.pathname === "/about"
-                  ? "nav-link active"
-                  : "nav-link"
-              }
-            >
-              About
-            </Link>
-          </li>
-         
-         
-          <li className="nav-item">
-            <Link
-              to="/portfolio"
-              className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
-            >
-              Portfolio
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              to="/project"
-              className={window.location.pathname === "/project" ? "nav-link active" : "nav-link"}
-            >
-              Project
-            </Link>
-          </li>
+ 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+    <a class="navbar-brand" href="/">satyakavya varri</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+
+           
+
+            <li class="nav-item ">
+            <Link className="navbar-brand" to="/contact"> Contact </Link>
+
+            </li>
+
+
+            <li class="nav-item active">
+
+            <Link className="navbar-brand" to="/about">About </Link>
+
+            </li>
+            <li class="nav-item active">
+
+            <Link className="navbar-brand" to="/portfolio"> Portfolio </Link>
+
+            </li>
+            <li class="nav-item active">
+
+            <Link className="navbar-brand" to="/project"> Projects </Link>
+
+            </li>
         </ul>
-      </div>
-    </nav>
+    </div>
+</nav>
+    
   );
 }
 

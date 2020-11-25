@@ -1,13 +1,13 @@
 import React from "react";
 
-const styles ={
-   bg :{
-     background : "blue",
+// const styles ={
+//    bg :{
+//      background :"rgba(185, 180, 180, 0.623)"
     
-   }
-}
+//    }
+// }
 function Container(props) {
-  return <div className="container"  style ={styles.bg}>{props.children}</div>;
+  return <div className="container" >{props.children}</div>;
 }
 
 export default Container;
