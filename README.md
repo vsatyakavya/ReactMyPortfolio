@@ -1,7 +1,7 @@
 # React Myportfolio
 
 # Application Does:
-* This portfolio is developed using React.It contains information about my education, projects links, github link, resume, linked, gmail id.
+* This portfolio is developed using React.It contains information about my education, projects links, github link, resume, linked-in, gmail id.
 
 # Technologies used:
 * React , Bootstrap, css
