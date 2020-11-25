@@ -17,7 +17,12 @@ import Row from "../components/Row"
 import Container from "../components/Container"
 import Col from "../components/Col"
 
-
+const styles ={
+    img:{
+        height:250,
+        width:400,
+        padding:10}
+}
 
 
 function Portfolio() {
@@ -26,12 +31,12 @@ function Portfolio() {
         <Row>
             <Col size="md-12">
                 <h1>Portfolio</h1>
-                <img src={login} class="img-fluid" alt="login" />
-                <img src={petform} class="img-fluid" alt ="petform" />
-                <img src={videos} class="img-fluid" alt="videos page" /><hr />
-                <img src={gmoh} class="img-fluid" alt="welcome page" />
-                <img src={mapandplaces} class="img-fluid" alt="mapandplaces" /><hr />
-                <img src={MyTeam} class="img-fluid" alt="team profiles" /><hr />
+                <img src={login} class="img-fluid" alt="login" style={styles.img} />
+                <img src={petform} class="img-fluid" alt ="petform" style={styles.img} />
+                <img src={videos} class="img-fluid" alt="videos page" style={styles.img} />
+                <img src={gmoh} class="img-fluid" alt="welcome page"style={styles.img} />
+                <img src={mapandplaces} class="img-fluid" alt="mapandplaces" style={styles.img} />
+                <img src={MyTeam} class="img-fluid" alt="team profiles"style={styles.img}  />
                 <h1 >QUIZ GAME</h1>
                 <img src={quiz} class="img-fluid" alt="quiz" /><hr />
                 <img src={weather} class="img-fluid" alt="weather dashboard" /><hr />
