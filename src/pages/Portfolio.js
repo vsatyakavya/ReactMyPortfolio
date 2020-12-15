@@ -1,16 +1,14 @@
 import React from "react"
 import login from '../Assets/login.png'; 
-import petform from '../Assets/petform.png'; 
+import home from "../Assets/home.png"
+import dayplanner from "../Assets/dayplanner.png"
+import gmoh from "../Assets/gmoh.png"
+import MyTeam from "../Assets/MyTeam.png"
+import videos from "../Assets/videos.png"
 
 
-import mapandplaces from '../Assets/mapandplaces.png'; 
-import employeeList from '../Assets/employeelist.png'; 
 
-import quiz from '../Assets/quiz.png'; 
-import weather from '../Assets/weather.png'; 
 
-import passwordGenerator from '../Assets/passwordGenerator.png'; 
-import graph from '../Assets/graph.png'; 
 import Row from "../components/Row"
 import Container from "../components/Container"
 import Col from "../components/Col"
@@ -33,16 +31,15 @@ function Portfolio() {
         <Container>
         <Row>
             <Col size="md-12" style={{padding : 50}}>
-                <h1>Portfolio</h1>
+                <h1>Sample web pages</h1>
+                <img src= {home} class="img-fluid" alt ="home"  style={styles.img} />
                 <img src={login} class="img-fluid" alt="login" style={styles.img} />
-                <img src={petform} class="img-fluid" alt ="petform" style={styles.img} />
-                <img src={mapandplaces} class="img-fluid" alt="mapandplaces" style={styles.img} />
-                <img src={employeeList} class="img-fluid" alt="login" style={styles.img} />
-                <img src={graph} class="img-fluid" alt="login" style={styles.img} />
+                <img src= {dayplanner} class="img-fluid" alt ="home"  style={styles.img} />
+                <img src= {gmoh} class="img-fluid" alt ="home"  style={styles.img} />
 
-                <img src={quiz} class="img-fluid" alt="quiz" style={styles.img}/>
-                <img src={weather} class="img-fluid" alt="weather dashboard" style={styles.img}/>
-                <img src={passwordGenerator} class="img-fluid" alt="password Generator"style={styles.img} />
+                <img src= {MyTeam} class="img-fluid" alt ="home"  style={styles.img} />
+                <img src= {videos} class="img-fluid" alt ="home"  style={styles.img} />
+
                 
             </Col>
         </Row>
