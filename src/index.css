@@ -1,4 +1,14 @@
 body, html {
     height: 100%;
     margin: 0;
+    /* background-image: url(" +  Background  + ");
+
+   
+     width: '100vw';
+     height: '220vh';
+
+    background-position: "center";
+    background-repeat: "repeat";
+    background-size: "cover";
+    background-attachment:"fixed" */
 }

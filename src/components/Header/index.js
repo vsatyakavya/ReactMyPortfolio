@@ -47,3 +47,14 @@ function Navbar() {
 }
 
 export default Navbar;
+
+// this.setState({
+//   error: true
+// })
+// {this.state.error && <div className=" errormsg col-md-6 offset-md-3 ">Invalid Credentials, Please Try again!!</div>}
+// .errormsg{
+//   background-color: rgb(206, 142, 142);
+//   padding : 10px;
+//   border-radius: 10px;
+//   color: white;
+// }
