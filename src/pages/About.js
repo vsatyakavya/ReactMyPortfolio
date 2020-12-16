@@ -24,12 +24,11 @@ function About() {
                         </Col>
                         <Col size="md-6">
                             <h5>Satya kavya</h5>
-                            <p>I have done my under graduation in computer Science in India. I have done my college project in
-                            vb.net about my college.
-                            I have 1 year experience as a computer trainer. I'm a student of UT Austin coding
-                            bootcamp.
-                                My dream is to work in software industry. My goal is to become a great web developer.</p>
-                            <p>I like to play ping pong, carroms and board games like sequence. </p>
+                            <p>I have done my under graduation in computer Science.Now I'm a certified Full-Stack web Developer. 
+                                I have learned so many new technologies and programming languages in UT Austin Coding BootCamp.
+                                I'm looking forward to start my carrer as a junior full-stack web developer.
+                                My dream is to work in software industry to become a great full-stack web developer.
+                            I like to play ping pong, carroms and board games like sequence.</p>
                             <h6>
                             <li><strong>Resume:   </strong> <a href={resume}>satyakavyavarri</a></li>
                             <li><strong>Email Address:</strong> <a href="mailto:satyakavya24@gmail.com">satyakavya24@gmail.com</a></li>
