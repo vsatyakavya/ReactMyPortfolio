@@ -34,7 +34,6 @@ function About() {
                             <li><strong>Email Address:</strong> <a href="mailto:satyakavya24@gmail.com">satyakavya24@gmail.com</a></li>
                             <li><strong>GithubLink:</strong> <a href="https://github.com/vsatyakavya">Github</a></li>
                             <li><strong>Linkedin Link:</strong> <a href="https://www.linkedin.com/in/satyakavyavarri/">linkedin</a></li>
-                            <li><strong>Mobile Number:</strong> (512)-986-1095</li>
                             </h6>
                         </Col>
                     </Row>
