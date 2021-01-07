@@ -18,7 +18,7 @@ const projects = [
     title : "ThoughtBubble",
     deployed :"https://secret-reaches-35397.herokuapp.com/",
     github : "https://github.com/vsatyakavya/ThoughtBubble",
-    description : "This is a full-stack Journal application developed using the MERN tech stack. User can save ativities and pictures in to there own account",
+    description : "This is a full-stack Journal application developed using the MERN tech stack. User can save activities and pictures in to there own account",
     image : thought
 
 
@@ -62,7 +62,7 @@ const projects = [
       title: "Quiz Game",
       deployed: "https://vsatyakavya.github.io/QuizGame.github.io/.",
       github: "https://github.com/vsatyakavya/QuizGame.github.io",
-      description : "This is a quiz game with multiple questions with timer, show high score and show can save the name ",
+      description : "This is a quiz game with multiple questions with timer, show high score and user can save the name ",
 
       image: quiz
 

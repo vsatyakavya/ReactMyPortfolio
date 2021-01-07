@@ -31,7 +31,7 @@ function Portfolio() {
         <Container>
         <Row>
             <Col size="md-12" style={{padding : 50}}>
-                <h1>Web page interfaces from my projects</h1>
+                <h1>Some web page interfaces from my projects</h1>
                 <img src= {home} class="img-fluid" alt ="home"  style={styles.img} />
                 <img src={login} class="img-fluid" alt="login" style={styles.img} />
                 <img src= {dayplanner} class="img-fluid" alt ="home"  style={styles.img} />
