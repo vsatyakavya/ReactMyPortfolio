@@ -14,7 +14,7 @@ const styles ={
 
    
     width: '100vw',
-    height: '220vh',
+    height: '240vh',
 
     backgroundPosition: "center",
     backgroundRepeat: "repeat",
