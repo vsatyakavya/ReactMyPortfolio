@@ -50,7 +50,7 @@ function Project(props){
                                 <Col size="md-6">
                                     {/* <div> */}
                                  <ul>
-                                  <li className="list-group" key={item.id} style={{fontSize : 20,fontWeight: "bold", color : "rgb(74 191 186)"}}>{item.title}</li>
+                                  <li className="list-group" key={item.id} style={{fontSize : 25,fontWeight: "bold", color : "#00fff3"}}>{item.title}</li>
                                  {/* <li className="list-group"><a href={item.deployed}>Deployed VersionDeployed VersionDeployed VersionDeployed VersionDeployed VersionDeployed Version</a></li> */}
                                  <li className="list-group" ><a href={item.github} target="blank" style={{color:"white",textDecoration : "underline"}}>Github Repository</a></li>
                                  <li className="list-group" style={{color:"white"}}>{item.description}</li>
