@@ -5,7 +5,7 @@ import "./style.css"
 function Navbar() {
   return (
  
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav id = "sticky" class="navbar navbar-expand-lg navbar-dark ">
     <p class="navbar-brand">Satya Kavya Varri</p>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">

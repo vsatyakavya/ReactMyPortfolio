@@ -10,16 +10,20 @@ import Header from "./components/Header";
 import Footer from "./components/Footer"
 const styles ={
   bg :{
-    backgroundImage: "url(" +  Background  + ")",
+    // backgroundImage: "url(" +  Background  + ")",
+    background: "linear-gradient(#e66465, #9198e5)",
+    minHeight:"125%",
+    
 
    
-    width: '100vw',
-    height: '240vh',
-
-    backgroundPosition: "center",
-    backgroundRepeat: "repeat",
-    backgroundSize: "cover",
-    backgroundAttachment:"fixed"
+    // width: '100vw',
+    //  height: '240vh',
+// minHeight :"100%",
+// minWidth :"100%",
+    // backgroundPosition: "center",
+    // backgroundRepeat: "repeat",
+    // backgroundSize: "cover",
+    // backgroundAttachment:"fixed"
 
   }
 }

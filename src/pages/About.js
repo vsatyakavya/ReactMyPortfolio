@@ -23,8 +23,9 @@ function About() {
                             />
                         </Col>
                         <Col size="md-6">
+                            <div style={{color :"ivory" ,fontsize:"large",fontFamily:"Arial,Georgia,Times New Roman",fontWeight:"oblique",filter:"brightness(100%)" }}>
                             <h5>Hello! </h5>
-                               <h5> I'm Satya kavya</h5>
+                               <h5> I'm Satya kavya Varri</h5>
                             <p>Welcome to my profile. I live in Austin, Texas. I have done my under graduation in computer Science.
                                 I have recently done my certification from UT Austin Coding BootCamp as a Full-Stack Web Developer. 
                                 Skilled in technologies and programming languages like JavaScript, Github, (MERN)MongoDB, Express.js, React, Node.js, HTML, CSS, JQuery, Bootstrap.</p>
@@ -38,6 +39,7 @@ function About() {
                             <li><strong>GithubLink:</strong> <a href="https://github.com/vsatyakavya">Github</a></li>
                             <li><strong>Linkedin Link:</strong> <a href="https://www.linkedin.com/in/satyakavyavarri/">linkedin</a></li> */}
                             {/* </h6> */}
+                            </div>
                         </Col>
                     </Row>
                 </Col>
