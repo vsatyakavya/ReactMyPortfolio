@@ -12,7 +12,8 @@ const styles ={
   bg :{
     // backgroundImage: "url(" +  Background  + ")",
     background: "linear-gradient(#e66465, #9198e5)",
-    minHeight:"125%",
+    // minHeight:"500%",
+    // backgroundSize :"cover"
     
 
    
