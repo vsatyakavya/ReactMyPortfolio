@@ -5,19 +5,18 @@ import Col from "../components/Col";
 
 const styles ={
     img:{
-        height:"auto",
+        height:"200px",
         width:"100%",
         borderRadius : 10,
-        // margin : 20,
-        boxShadow: "10px 10px 5px grey",
+        boxShadow: "15px 15px 10px grey",
         
 
     },
     test: {
-        height: "180px",
+        // height: "180px",
         overflow: "hidden",
-        marginBottom : "10px",
-        borderRadius: "10px"
+        marginBottom:"10px"
+        // borderRadius: "10px"
        }
 }
 
@@ -34,7 +33,7 @@ function Project(props){
                         <h1 style={{textAlign :"center"}} id="aboutme" >Projects Details</h1>
                     </Col>
                 </Row>
-                <Row style={{marginBpttom : "10px"}}>
+                <Row>
                     <Col size="md-12">
                         <ol className="list" >
                             {props.project.map(item =>(
@@ -49,12 +48,12 @@ function Project(props){
                                 </Col>
                                 <Col size="md-6">
                                     {/* <div> */}
-                                 <ul>
-                                  <li className="list-group" key={item.id} style={{fontSize : 25,fontWeight: "bold", color : "#00fff3"}}>{item.title}</li>
+                                 <ul style={{marginLeft:0,padding :0}}>
+                                  <li className="list-group" key={item.id} style={{fontSize : 25,fontWeight: "bold", color : "white"}}>{item.title}</li>
                                  {/* <li className="list-group"><a href={item.deployed}>Deployed VersionDeployed VersionDeployed VersionDeployed VersionDeployed VersionDeployed Version</a></li> */}
                                  <li className="list-group" ><a href={item.github} target="blank" style={{color:"white",textDecoration : "underline"}}>Github Repository</a></li>
                                  <li className="list-group" style={{color:"white"}}>{item.description}</li>
-                                 <h6 style={{color : "#00fff3", textDecoration : "underline overline",marginTop : 20}}>Click on the image to experience the app</h6>
+                                 <h6 style={{color : "#00fff3", textDecoration : "underline overline",marginTop : 20,marginBottom:"20px"}}>Click on the image to experience the app</h6>
 
  
                              </ul>

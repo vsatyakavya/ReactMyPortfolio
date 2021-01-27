@@ -8,15 +8,16 @@ const styles = {
         display: "flex",
         alignItems: " center",
         minHeight: "24px",
-        width: "50%",
-        marginLeft: 0
+         width: "40%",
+        marginLeft: 0,
+
 
     },
 
     word:{
         color: "white", 
         fontSize: "25px",
-         marginLeft: "5px" 
+         marginLeft: "5px" ,
 
     }
 
@@ -28,7 +29,9 @@ function Contact(props) {
         <Container>
             <Row>
                 {/* <Col size =" offset-3 md-9"> */}
-                <div class="col-sm-10 " style={{ boxSizing: "borderBox", padding: "58px", display: "flex", flexDirection: "column", alignItems: "center" }}>
+                <div class="col-sm-10 " 
+                style={{ boxSizing: "borderBox", paddingTop: "30px",paddingBottom:"140px", display: "flex", flexDirection: "column", alignItems: "center",}}>
+                
                     <h3 style={styles.flex}>Contact Information</h3>
                     <p style={styles.flex}><i class="fa fa-file" style={{ fontSize: "50px", color: "green" }}> </i>
                         <a href={resume} target="blank" style={ styles.word}> Resume</a></p>
