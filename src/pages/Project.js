@@ -42,7 +42,7 @@ function Project(props){
                                 <Col size="md-6">
                                 <div className="test" style={styles.test}>
 
-                                <a href={item.deployed} ><img src={item.image} alt="satyakavya" style={styles.img} /></a>
+                                <a href={item.deployed} target="_blank"><img src={item.image} alt="satyakavya" style={styles.img} /></a>
                                 </div>
 
                                 </Col>
