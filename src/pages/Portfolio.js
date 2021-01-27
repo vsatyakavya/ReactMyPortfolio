@@ -17,7 +17,7 @@ import Col from "../components/Col"
 const styles = {
     img: {
         height: 250,
-        width: "400px",
+        width: "450px",
         borderRadius: 10,
         margin: 20,
         boxShadow: "10px 10px 5px grey"

@@ -12,8 +12,9 @@ const styles ={
   bg :{
     // backgroundImage: "url(" +  Background  + ")",
     background: "linear-gradient(#e66465, #9198e5)",
-    // minHeight:"500%",
-    // backgroundSize :"cover"
+    height:"100%",
+    
+    
     
 
    
@@ -30,7 +31,7 @@ const styles ={
 }
 function App() {
   return (
-    <Router>
+    <Router >
       <div style= {styles.bg}>
         <Header />
         <Switch>
