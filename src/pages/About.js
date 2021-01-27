@@ -20,7 +20,7 @@ function About() {
                     <Row>
                         <Col size="md-4">
                             <img src={kavya} className=" img-fluid "  alt="satyakavya"
-                            />
+                               style={{marginBottom:"10px"}}/>
                         </Col>
                         <Col size="md-6">
                         

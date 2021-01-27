@@ -9,6 +9,14 @@
 # Features
 * Gives information about me
 * Has contact details
+* Included Resume,Github,Projects links
+* Deployed project links
+* Fixed Navbar and footer
+* Used display flex to align items
+* Used selectors,positions
+* Typography
+* Inline,Internal,external css
+
 
 
 
