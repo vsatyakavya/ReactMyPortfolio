@@ -23,6 +23,7 @@ function About() {
                             />
                         </Col>
                         <Col size="md-6">
+                        
                             <div style={{color :"ivory" ,fontsize:"large",fontFamily:"Arial,Georgia,Times New Roman",fontWeight:"oblique",filter:"brightness(100%)" }}>
                             <h5>Hello! </h5>
                                <h5> I'm Satya kavya Varri</h5>
@@ -33,12 +34,7 @@ function About() {
                                <p> Now I'm looking forward to start my carrer as a full-stack web developer. I’m a quick learner with good problem solving skills and leveraging the skills learnt in 
                                 education and applying them wherever applicable.I aspire for a challenging position in an organization, which provides me with a great opportunity to utilize my skills 
                                 towards the development of the organization as well as  for my bright future. I like to play ping pong, carroms and board games like sequence.</p>
-                            {/* <h6> */}
-                            {/* <li><strong>Resume:   </strong> <a href={resume}>satyakavyavarri</a></li>
-                            <li><strong>Email Address:</strong> <a href="mailto:satyakavya24@gmail.com">satyakavya24@gmail.com</a></li>
-                            <li><strong>GithubLink:</strong> <a href="https://github.com/vsatyakavya">Github</a></li>
-                            <li><strong>Linkedin Link:</strong> <a href="https://www.linkedin.com/in/satyakavyavarri/">linkedin</a></li> */}
-                            {/* </h6> */}
+                           
                             </div>
                         </Col>
                     </Row>
