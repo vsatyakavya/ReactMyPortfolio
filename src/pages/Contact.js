@@ -62,7 +62,7 @@ function Contact(props) {
 
             <Row>
                 {/* <Col size =" offset-3 md-9"> */}
-                <div class="col-sm-10 " style={{boxSizing:"borderBox", padding:"50px",display: "flex",flexDirection :"column",alignItems: "center"}}>
+                <div class="col-sm-10 " style={{boxSizing:"borderBox", padding:"58px",display: "flex",flexDirection :"column",alignItems: "center"}}>
                     <h3 style={styles.flex}>Contact Information</h3>
                     <p style={styles.flex}><i class="fa fa-file" style={{ fontSize: "50px", color: "green" }}> </i>
                         <a href={resume} target="blank" style={{ color: "white", fontSize: "25px",marginLeft:"5px"}}> Resume</a></p>
