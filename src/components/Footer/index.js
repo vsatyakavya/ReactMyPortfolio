@@ -1,6 +1,8 @@
 import React from "react"
 import resume from "../../Assets/resume.pdf"
 
+//footer  component//
+//used display flex to make footer fixed//
 const styles = {
     foot: {
         background: "#9198e5",

@@ -23,7 +23,7 @@
 
 
 # Sample web page
-![picture](Asset/kavya.png)
+![picture](Asset/newportfolio.png)
 
 
 # Github repository

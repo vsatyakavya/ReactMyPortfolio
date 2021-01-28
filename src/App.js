@@ -10,7 +10,6 @@ import Header from "./components/Header";
 import Footer from "./components/Footer"
 const styles ={
   bg :{
-    // backgroundImage: "url(" +  Background  + ")",
     background: "linear-gradient(#e66465, #9198e5)",
     height:"100%",
     

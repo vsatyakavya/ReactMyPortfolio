@@ -1,5 +1,5 @@
 import React from "react";
-
+//container component//
 const styles ={
    bg :{
      marginTop : 10,

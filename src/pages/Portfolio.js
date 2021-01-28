@@ -33,6 +33,7 @@ function Portfolio() {
         <Container>
             <Row>
                 <Col size="md-12">
+                    {/*embedded images */}
                     <h3 style={{textAlign:"center"}}>Some web page interfaces from my projects</h3>
 
                     <img src={home} class="img-fluid" alt="home" style={styles.img} />

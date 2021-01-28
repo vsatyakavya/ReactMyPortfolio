@@ -18,6 +18,7 @@ function About() {
 
 
                     <Row>
+                   {/*embedded an image and content about my information */}
                         <Col size="md-4">
                             <img src={kavya} className=" img-fluid "  alt="satyakavya"
                                style={{marginBottom:"10px"}}/>

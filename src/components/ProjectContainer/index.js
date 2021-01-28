@@ -10,7 +10,7 @@ import employeelist from "../../Assets/employeelist.png"
 
 
 
-
+//contains all the projects details and passing to the projects page//
 
 const projects = [
    {
