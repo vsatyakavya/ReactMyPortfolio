@@ -31,7 +31,7 @@ function Contact(props) {
             <Row>
                 {/* <Col size =" offset-3 md-9"> */}
                 <div class="col-sm-10 " 
-                style={{ boxSizing: "borderBox", paddingTop: "30px",paddingBottom:"140px", display: "flex", flexDirection: "column", alignItems: "center"}}
+                style={{ boxSizing: "border-box", paddingTop: "30px",paddingBottom:"200px", display: "flex", flexDirection: "column",justifyContent : "center", alignItems: "center",width :"50%"}}
                 >
                 
                     <h3 style={styles.flex}>Contact Information</h3>

@@ -13,6 +13,8 @@ const styles ={
     background: "linear-gradient(#e66465, #9198e5)",
     height:"100%",
     
+
+    
     
     
 
