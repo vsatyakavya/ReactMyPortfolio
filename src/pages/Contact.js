@@ -4,6 +4,7 @@ import Container from "../components/Container"
 import Col from "../components/Col"
 import resume from "../Assets/resume.pdf";
 const styles = {
+    //align contact details to center using display flex//
     flex: {
         display: "flex",
         alignItems: " center",
@@ -30,7 +31,8 @@ function Contact(props) {
             <Row>
                 {/* <Col size =" offset-3 md-9"> */}
                 <div class="col-sm-10 " 
-                style={{ boxSizing: "borderBox", paddingTop: "30px",paddingBottom:"140px", display: "flex", flexDirection: "column", alignItems: "center",}}>
+                style={{ boxSizing: "borderBox", paddingTop: "30px",paddingBottom:"140px", display: "flex", flexDirection: "column", alignItems: "center"}}
+                >
                 
                     <h3 style={styles.flex}>Contact Information</h3>
                     <p style={styles.flex}><i class="fa fa-file" style={{ fontSize: "50px", color: "green" }}> </i>
@@ -44,7 +46,6 @@ function Contact(props) {
                     <p style={styles.flex}><i class="fa fa-linkedin-square" style={{ fontSize: "50px", color: "blue" }}></i>
                         <a href="https://www.linkedin.com/in/satyakavyavarri/" target="blank" style={styles.word} >  Linkedin</a></p>
                 </div>
-                {/* </Col> */}
             </Row>
         </Container>
 
