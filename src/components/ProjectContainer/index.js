@@ -18,43 +18,46 @@ const projects = [
     title : "ThoughtBubble",
     deployed :"https://secret-reaches-35397.herokuapp.com/",
     github : "https://github.com/vsatyakavya/ThoughtBubble",
-    description : "This is a full-stack Journal application developed using the MERN tech stack. User can save activities and pictures in to there own account",
+    description : "This full-stack journal application is a solution to save everyday activities and memories with pictures, and useful for future reference",
+   languages:"MERN(MongoDB, Expressjs, React, Nodejs),CSS3 , Bootstrap, Cloudinary, Multer, Neumorphism",
     image : thought
 
 
    },
 
+  
+
    {
       id: 2,
-      title: "Employee Directory",
-      deployed: "https://vsatyakavya.github.io/EmployeeDirectory/",
-      github: "https://github.com/vsatyakavya/EmployeeDirectory",
-      description : "This is a react application of Employee details.So, User can have quick access to employee details.",
-      image: employeelist
-
-
-   },
-
-   {
-      id: 3,
       title: "Fur Family",
       deployed: "https://fur-family-34.herokuapp.com/",
       github: "https://github.com/vsatyakavya/FurFamily",
-      description : "This is a full stack application about pets.This applicatin can be used by any pet lovers to manage their pet details.",
-
+      description : "A very useful full stack application for pet lovers to save there pet details and activities by creating personal account, and watch grooming and, training videos",
+      languages: "HTML5, CSS3, BOOTSTRAP, Javascript, Jquery, Expressjs, Nodejs, ES6, passport, sequelize, MySql",
       image: petform
    },
 
 
 
    {
-      id: 4,
+      id: 3,
       title: "GetMeOutOfHere",
       deployed: "https://drop-g.github.io/GetMeOutOfHereApp/",
       github: "https://github.com/vsatyakavya/GetMeOutOfHereApp",
-      description : "This is an application to search for nearby places like Lake, Beach, Pool, Zoo,Campsites",
-
+      description : "An application to save the users time in searching the places around them, and shows the weather conditions of the user selected place",
+      languages:"HTM5L, CSS3, Materialize, Javascript, JQuery, openweather API , mapbox API ",
       image: mapandplaces
+
+   },
+   {
+      id: 4,
+      title: "Employee Directory",
+      deployed: "https://vsatyakavya.github.io/EmployeeDirectory/",
+      github: "https://github.com/vsatyakavya/EmployeeDirectory",
+      description : "A react application to store employee details. User can find the information of a particular employee based on the name, and able to sort all the employees",
+      languages : " React , Bootstrap, axios, css3",
+      image: employeelist
+
 
    },
    {
@@ -62,28 +65,21 @@ const projects = [
       title: "Quiz Game",
       deployed: "https://vsatyakavya.github.io/QuizGame.github.io/.",
       github: "https://github.com/vsatyakavya/QuizGame.github.io",
-      description : "This is a quiz game with multiple questions with timer, show high score and user can save the name ",
+      description : "A quiz game to test the user knowledge with multiple questions. User has to answer the questions with in the time and can save the highscores.",
+      languages: "HTML5, CSS3, JavaScript",
 
       image: quiz
 
    },
+  
+
    {
       id: 6,
-      title: " Password Generator",
-      deployed: "https://vsatyakavya.github.io/PasswordGenerator.github.io/",
-      github: "https://github.com/vsatyakavya/PasswordGenerator.github.io",
-      description : "This application can generate a password which is a combination of numbers, lowerCase, UpperCase and special characters based on the given length from the user.",
-
-      image: passwordGenerator
-
-   },
-
-   {
-      id: 7,
       title: "Weather Dashboard",
       deployed: "https://vsatyakavya.github.io/WeatherDashBoard.github.io/Develop",
       github: "https://github.com/vsatyakavya/WeatherDashBoard.github.io",
-      description : "This applcation shows the weather details of the city and gives 5 days weather forecast ",
+      description : "An applcation helps users to plan a day by showing the weather conditions of a particular city and gives 5 days weather forecast ",
+      languages: "HTML5, CSS3, JavaScript, JQuery",
 
       image: weather
 

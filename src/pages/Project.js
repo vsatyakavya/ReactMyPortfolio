@@ -2,19 +2,31 @@ import React from "react"
 import Row from "../components/Row"
 import Container from "../components/Container"
 import Col from "../components/Col";
+import { findByLabelText } from "@testing-library/react";
+
 
 const styles = {
     img: {
-        height: "200px",
+        height: "350px",
         width: "100%",
-        borderRadius: 10,
-        boxShadow: "15px 15px 10px grey",
+        // boxShadow: "15px 15px 10px grey",
 
 
     },
     test: {
         overflow: "hidden",
-        marginBottom: "10px"
+        marginBottom: "30px",
+
+    },
+    
+    row: {
+        display: "flex",
+        flexWrap: "wrap",
+
+        // justifyContent: "flex-end"
+
+
+
     }
 }
 
@@ -23,55 +35,51 @@ const styles = {
 
 function Project(props) {
     return (
-        <Container>
-            <Row>
-                <Col size="md-10">
-                    <Row>
-                        <Col size="md-10" >
-                            <h1 style={{ textAlign: "center" }} id="aboutme" >Projects Details</h1>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col size="md-12">
-                            <ol className="list" >
-                                {props.project.map(item => (
-                                    <Row>
+        // <Container>
+        <Row>
+            <Col size="md-12">
+                <Row>
+                    <Col size="md-12" >
+                        <h1 style={{ textAlign: "center", color: "white" }} id="aboutme" >Projects Details</h1>
+                    </Col>
+                </Row>
+                {/* <ol className="list" > */}
+                <div classname="row" style={styles.row}>
 
-                                        <Col size="md-6">
-                                            <div className="test" style={styles.test}>
-                                                {/*display project image with deployed link*/}
-                                                {/* apply attribute target to ope project in new tab */}
+                    {props.project.map(item => (
 
-                                                <a href={item.deployed} target="_blank"><img src={item.image} alt="satyakavya" style={styles.img} /></a>
-                                            </div>
-
-                                        </Col>
-                                        <Col size="md-6">
-                                            {/*showing project details with github link */}
-                                            <ul style={{ marginLeft: 0, padding: 0 }}>
-                                                <li className="list-group" key={item.id} style={{ fontSize: 25, fontWeight: "bold", color: "white" }}>{item.title}</li>
-                                                <li className="list-group" ><a href={item.github} target="blank" style={{ color: "white", textDecoration: "underline" }}>Github Repository</a></li>
-                                                <li className="list-group" style={{ color: "white" }}>{item.description}</li>
-                                                <h6 style={{ color: "#00fff3", textDecoration: "underline overline", marginTop: 20, marginBottom: "20px" }}>Click on the image to experience the app</h6>
+                        <Col size="md-4" >
+                            <div class="card text-center" style={styles.test} >
+                                <img class="card-img-top" src={item.image} style={styles.img} alt="projects" />
+                                <div class="card-body text-center" style={{ backgroundColor: "#eee" }}>
+                                    <h4 class="card-title " style={{ color: "blue", textDecoration: "underline" }}>{item.title}</h4>
+                                    <p class="card-text">
+                                        {item.description}
+                                    </p>
+                                    <p class="card-text"><strong>Stack</strong></p>
+                                    <p class="card-text" >
+                                        {item.languages}
+                                    </p>
+                                    </div>
 
 
-                                            </ul>
+                                    <div className="card-footer" style={{margin:"0px"}}>
+                                        <a href={item.github} target="_blank"><i class="fa fa-github-square fa-2x" style={{ color: "black", marginRight: "20px" }}></i></a>
 
-                                        </Col>
-                                    </Row>
-
-                                ))}
-
-
-
-
-                            </ol>
+                                        <a href={item.deployed} target="_blank"><i class="fa fa-link fa-2x" style={{ color: "blue", }}></i></a> </div>
+                            </div>
 
                         </Col>
-                    </Row>
-                </Col>
-            </Row>
-        </Container>
+
+                    ))}
+
+                </div>
+
+
+
+
+            </Col>
+        </Row>
     )
 
 }
