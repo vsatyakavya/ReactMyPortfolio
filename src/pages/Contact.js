@@ -39,7 +39,7 @@ function Contact(props) {
                         <a href={resume} target="blank" style={ styles.word}> Resume</a></p>
 
                     <p style={styles.flex}><i class="fa fa-envelope-square" style={{ fontSize: "55px", color: "red" }}>  </i>
-                        <a href="mailto:satyakavya24@gmail.com" target="blank" style={styles.word}>  Gmail</a></p>
+                        <a href="mailto:satyakavya24@gmail.com" target="blank" style={styles.word}> satyakavya24@gmail.com</a></p>
 
                     <p style={styles.flex}><i class="fa fa-github-square" style={{ fontSize: "50px", color: "black" }}></i>
                         <a href="https://github.com/vsatyakavya" target="blank" style={styles.word}>   Github</a></p>
