@@ -1,6 +1,5 @@
 import React from "react"
 import Row from "../components/Row"
-import Container from "../components/Container"
 import Col from "../components/Col";
 import { findByLabelText } from "@testing-library/react";
 
@@ -14,16 +13,18 @@ const styles = {
 
     },
     test: {
-        overflow: "hidden",
+        // overflow: "hidden",
         marginBottom: "30px",
+        backgroundColor: "#eee"
+
 
     },
-    
+   
+
     row: {
         display: "flex",
         flexWrap: "wrap",
 
-        // justifyContent: "flex-end"
 
 
 
@@ -60,13 +61,14 @@ function Project(props) {
                                     <p class="card-text" >
                                         {item.languages}
                                     </p>
-                                    </div>
+                                </div>
 
 
-                                    <div className="card-footer" style={{margin:"0px"}}>
-                                        <a href={item.github} target="_blank"><i class="fa fa-github-square fa-2x" style={{ color: "black", marginRight: "20px" }}></i></a>
+                                <div className="card-footer">
+                                    <a href={item.github} target="_blank" rel="noreferrer"><i class="fa fa-github-square fa-2x" style={{ color: "black", marginRight: "20px" }}></i></a>
 
-                                        <a href={item.deployed} target="_blank"><i class="fa fa-link fa-2x" style={{ color: "blue", }}></i></a> </div>
+                                    <a href={item.deployed} target="_blank" rel="noreferrer"><i class="fa fa-link fa-2x" style={{ color: "blue", }}></i></a>
+                                </div>
                             </div>
 
                         </Col>
