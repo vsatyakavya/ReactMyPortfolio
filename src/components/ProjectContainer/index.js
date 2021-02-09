@@ -32,7 +32,7 @@ const projects = [
       title: "Fur Family",
       deployed: "https://fur-family-34.herokuapp.com/",
       github: "https://github.com/vsatyakavya/FurFamily",
-      description : "A very useful full stack application for pet lovers to save there pet details and activities by creating personal account, and watch grooming and, training videos",
+      description : "A very useful full stack application for pet lovers to save their pet details and activities. User can create personal account, watch grooming and, training videos",
       languages: "HTML5, CSS3, BOOTSTRAP, Javascript, Jquery, Expressjs, Nodejs, ES6, passport, sequelize, MySql",
       image: petform
    },
@@ -44,7 +44,7 @@ const projects = [
       title: "GetMeOutOfHere",
       deployed: "https://drop-g.github.io/GetMeOutOfHereApp/",
       github: "https://github.com/vsatyakavya/GetMeOutOfHereApp",
-      description : "An application to save the users time in searching the places around them, and shows the weather conditions of the user selected place",
+      description : "An application to save users time to search for nearby places and see the weather conditions of the selected place. So, user can plan according to their interest and helps get out of here.",
       languages:"HTM5L, CSS3, Materialize, Javascript, JQuery, openweather API , mapbox API ",
       image: mapandplaces
 
@@ -54,7 +54,7 @@ const projects = [
       title: "Employee Directory",
       deployed: "https://vsatyakavya.github.io/EmployeeDirectory/",
       github: "https://github.com/vsatyakavya/EmployeeDirectory",
-      description : "A react application to store employee details. User can find the information of a particular employee based on the name, and able to sort all the employees",
+      description : "A react application to store employee details. User can find the information of a particular employee based on the name, and able to sort all the employees based on their information",
       languages : " React , Bootstrap, axios, css3",
       image: employeelist
 
@@ -65,7 +65,7 @@ const projects = [
       title: "Quiz Game",
       deployed: "https://vsatyakavya.github.io/QuizGame.github.io/.",
       github: "https://github.com/vsatyakavya/QuizGame.github.io",
-      description : "A quiz game to test the user knowledge with multiple questions. User has to answer the questions with in the time and can save the highscores.",
+      description : "A quiz game to test the users javascript knowledge with multiple questions. User has to answer the questions with in the time and able to save the highscores.",
       languages: "HTML5, CSS3, JavaScript",
 
       image: quiz
