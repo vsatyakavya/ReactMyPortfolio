@@ -30,7 +30,7 @@ function About() {
                                <h5> I'm Satya kavya Varri</h5>
                             <p>Welcome to my profile. I live in Austin, Texas.I have received a degree in computer Science from CH.S.D.St.Theresa's College, and I have also recently received a Certificate from UT Austin Coding BootCamp as a Full-Stack Web Developer.
                             
-                                Skilled in technologies and programming languages like JavaScript, Github, (MERN)MongoDB, Express.js, React, Node.js, HTML5, CSS3, JQuery, MySql, Bootstrap.</p>
+                                Skilled in technologies and programming languages like JavaScript, Github, (MERN)MongoDB, Express.js, React, Node.js, HTML5, CSS3, JQuery, MySql, and Bootstrap.</p>
                                 
                                <p> Now I'm looking forward to starting my career as a full-stack web developer. I’m a quick learner with good problem solving skills and leveraging the skills learnt in 
                                 education and applying them wherever applicable.I aspire for a challenging position in an organization, to utilize my skills 
