@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ReactMyPortfolio/static/css/main.501e1339.chunk.css",
-    "main.js": "/ReactMyPortfolio/static/js/main.18605f5f.chunk.js",
-    "main.js.map": "/ReactMyPortfolio/static/js/main.18605f5f.chunk.js.map",
+    "main.js": "/ReactMyPortfolio/static/js/main.07bdacc9.chunk.js",
+    "main.js.map": "/ReactMyPortfolio/static/js/main.07bdacc9.chunk.js.map",
     "runtime-main.js": "/ReactMyPortfolio/static/js/runtime-main.5821b72e.js",
     "runtime-main.js.map": "/ReactMyPortfolio/static/js/runtime-main.5821b72e.js.map",
     "static/css/2.1a02f21c.chunk.css": "/ReactMyPortfolio/static/css/2.1a02f21c.chunk.css",
@@ -23,7 +23,7 @@
     "static/media/passwordGenerator.aa25cbf8.png": "/ReactMyPortfolio/static/media/passwordGenerator.aa25cbf8.png",
     "static/media/petform.1d2046f2.png": "/ReactMyPortfolio/static/media/petform.1d2046f2.png",
     "static/media/quiz.a758fa9b.png": "/ReactMyPortfolio/static/media/quiz.a758fa9b.png",
-    "static/media/resume.66451d76.pdf": "/ReactMyPortfolio/static/media/resume.66451d76.pdf",
+    "static/media/resume.55ee931f.pdf": "/ReactMyPortfolio/static/media/resume.55ee931f.pdf",
     "static/media/satyakavya.c2768e96.jpg": "/ReactMyPortfolio/static/media/satyakavya.c2768e96.jpg",
     "static/media/thought.23c3748b.png": "/ReactMyPortfolio/static/media/thought.23c3748b.png",
     "static/media/videos.bfb2e33c.png": "/ReactMyPortfolio/static/media/videos.bfb2e33c.png",
@@ -34,6 +34,6 @@
     "static/css/2.1a02f21c.chunk.css",
     "static/js/2.d0eedeb2.chunk.js",
     "static/css/main.501e1339.chunk.css",
-    "static/js/main.18605f5f.chunk.js"
+    "static/js/main.07bdacc9.chunk.js"
   ]
 }
